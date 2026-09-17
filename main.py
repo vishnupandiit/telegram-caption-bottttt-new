@@ -26,7 +26,6 @@ WATERMARK_TEXT = os.getenv(
     "WATERMARK_TEXT",
     "@LearnWithVishnu 💫 | @SkillWithCourse"
 )
-]
 
 FONT_PATH = os.getenv(
     "FONT_PATH",
