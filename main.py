@@ -26,10 +26,6 @@ WATERMARK_TEXT = os.getenv(
     "WATERMARK_TEXT",
     "@LearnWithVishnu 💫 | @SkillWithCourse"
 )
-
-EXTRA_LINKS = [
-    "https://t.me/+Qu0lkdS9bik4ZTdl",
-    "https://t.me/+c1dA64xFxf1kZjI1",
 ]
 
 FONT_PATH = os.getenv(
@@ -157,8 +153,6 @@ def process_text(text, number, source_link):
     links = []
     if source_link:
         links.append(source_link)
-
-    links.extend(EXTRA_LINKS)
 
     links_text = "\n\n".join(links)
 
